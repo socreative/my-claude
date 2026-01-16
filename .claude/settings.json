@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/schema/settings.schema.json",
+  "version": "1.0",
+  "model": "sonnet",
+  "autoSummarize": true,
+  "alwaysAllowRead": [],
+  "alwaysAllowWrite": [],
+  "maxFileSize": 1048576,
+  "hooks": {},
+  "ignorePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "coverage/**",
+    ".next/**",
+    ".nuxt/**",
+    "out/**",
+    "*.log",
+    ".DS_Store",
+    "*.env.local",
+    "*.env.*.local"
+  ],
+  "codeStyle": {
+    "preferredLanguages": [],
+    "formatting": {
+      "indentStyle": "spaces",
+      "indentSize": 2,
+      "lineEndings": "lf"
+    }
+  },
+  "context": {
+    "includeGitStatus": true,
+    "includeGitDiff": false,
+    "maxContextFiles": 50
+  },
+  "features": {
+    "webSearch": true,
+    "webFetch": true,
+    "mcp": true
+  },
+  "customInstructions": ""
+}

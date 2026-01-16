@@ -1,0 +1,11 @@
+# Claude local settings (keep user-specific settings out of git)
+.claude/local.json
+
+# Standard ignores
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
