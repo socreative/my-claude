@@ -26,8 +26,11 @@ Similar to `.gitignore`, specifies files/patterns that Claude should not read or
 └── prompts/              # Custom prompts (if needed)
 
 skills/                   # AI skills and expertise (root level)
-├── housing-planning-uk.md
-├── threejs.md
+├── README.md             # Skills documentation
+├── housing-planning-uk/  # UK Housing & Planning Law skill
+│   └── README.md
+├── threejs/              # Three.js 3D Graphics skill
+│   └── README.md
 └── (additional skills...)
 ```
 

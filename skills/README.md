@@ -1,10 +1,21 @@
 # AI Skills
 
-This directory contains specialized AI skills and expertise domains. Each skill provides Claude with deep knowledge in a specific area.
+This directory contains specialized AI skills and expertise domains. Each skill is organized in its own folder with a README.md file and any supporting resources.
+
+## Directory Structure
+
+```
+skills/
+├── README.md                          # This file
+├── housing-planning-uk/              # UK Housing & Planning Law
+│   └── README.md
+└── threejs/                          # Three.js 3D Graphics
+    └── README.md
+```
 
 ## Available Skills
 
-### [housing-planning-uk.md](./housing-planning-uk.md)
+### [housing-planning-uk/](./housing-planning-uk/)
 Expert knowledge of UK Housing and Planning law, specifically the Housing and Planning Act 2016.
 
 **Covers:**
@@ -18,7 +29,7 @@ Expert knowledge of UK Housing and Planning law, specifically the Housing and Pl
 
 **Use for:** Property development, landlord/tenant issues, planning applications, housing law queries
 
-### [threejs.md](./threejs.md)
+### [threejs/](./threejs/)
 Expert knowledge of Three.js, the JavaScript 3D graphics library for WebGL.
 
 **Covers:**
@@ -34,15 +45,26 @@ Expert knowledge of Three.js, the JavaScript 3D graphics library for WebGL.
 
 To create a new skill:
 
-1. Create a new `.md` file in this directory with a descriptive name (e.g., `react-native.md`)
-2. Structure the skill with:
+1. Create a new folder in the `skills/` directory with a descriptive kebab-case name (e.g., `react-native/`)
+2. Create a `README.md` file inside the folder as the main skill documentation
+3. Structure the skill README with:
    - Clear title and description
    - Core concepts and fundamentals
    - API/feature reference
    - Common patterns and examples
    - Best practices
    - Resources and documentation links
-3. Commit and push to the repository
+4. (Optional) Add supporting files like examples, diagrams, or reference materials in the same folder
+5. Commit and push to the repository
+
+**Example:**
+```bash
+mkdir skills/my-new-skill
+touch skills/my-new-skill/README.md
+# Edit README.md with skill content
+git add skills/my-new-skill/
+git commit -m "Add my-new-skill"
+```
 
 ### Skill Template
 
