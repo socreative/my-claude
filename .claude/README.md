@@ -23,8 +23,15 @@ Similar to `.gitignore`, specifies files/patterns that Claude should not read or
 .claude/
 ├── settings.json          # Main configuration
 ├── README.md             # This file
-└── prompts/              # Custom prompts and skills
-    └── (your custom prompts here)
+└── prompts/              # Custom prompts (if needed)
+
+skills/                   # AI skills and expertise (root level)
+├── README.md             # Skills documentation
+├── housing-planning-uk/  # UK Housing & Planning Law skill
+│   └── README.md
+├── threejs/              # Three.js 3D Graphics skill
+│   └── README.md
+└── (additional skills...)
 ```
 
 ## Customization
@@ -51,7 +58,10 @@ Hooks execute shell commands in response to events:
 ```
 
 ### Creating Custom Prompts
-Add `.md` files to the `prompts/` directory to create reusable prompts or skills.
+Add `.md` files to the `.claude/prompts/` directory for Claude Code-specific prompts.
+
+### Adding Skills
+Skills (specialized AI expertise) should be added to the `/skills/` directory at the repository root. See `/skills/README.md` for details.
 
 ## Best Practices
 
