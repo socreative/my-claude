@@ -9,6 +9,8 @@ skills/
 ├── README.md                          # This file
 ├── housing-planning-uk/              # UK Housing & Planning Law
 │   └── README.md
+├── ig-trading-api/                   # IG Markets Trading API
+│   └── README.md
 └── threejs/                          # Three.js 3D Graphics
     └── README.md
 ```
@@ -28,6 +30,19 @@ Expert knowledge of UK Housing and Planning law, specifically the Housing and Pl
 - Right to buy implementation
 
 **Use for:** Property development, landlord/tenant issues, planning applications, housing law queries
+
+### [ig-trading-api/](./ig-trading-api/)
+Expert knowledge of IG Markets Trading API for automated trading and financial applications.
+
+**Covers:**
+- REST API for trading, positions, orders, and account management
+- Streaming API with Lightstreamer for real-time market data
+- Authentication methods (session tokens and OAuth)
+- Historical and live price data
+- Watchlists and client sentiment
+- Python and JavaScript code examples
+
+**Use for:** Automated trading systems, trading bots, market data analysis, portfolio management applications, financial integrations
 
 ### [threejs/](./threejs/)
 Expert knowledge of Three.js, the JavaScript 3D graphics library for WebGL.
