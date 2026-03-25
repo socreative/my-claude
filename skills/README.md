@@ -7,15 +7,31 @@ This directory contains specialized AI skills and expertise domains. Each skill 
 ```
 skills/
 ├── README.md                          # This file
+├── buffett-financial-analysis/       # Warren Buffett Financial Analysis
+│   └── SKILL.md
 ├── housing-planning-uk/              # UK Housing & Planning Law
 │   └── README.md
 ├── ig-trading-api/                   # IG Markets Trading API
 │   └── README.md
+├── suno-api/                         # Suno AI Music Generation API
+│   └── SKILL.md
 └── threejs/                          # Three.js 3D Graphics
     └── README.md
 ```
 
 ## Available Skills
+
+### [buffett-financial-analysis/](./buffett-financial-analysis/)
+Warren Buffett's framework for identifying companies with a durable competitive advantage, based on "Warren Buffett and the Interpretation of Financial Statements" by Mary Buffett and David Clark.
+
+**Covers:**
+- Income statement analysis (gross margins, SGA, R&D, net earnings, EPS trends)
+- Balance sheet analysis (cash, debt, retained earnings, ROE, debt/equity)
+- Cash flow analysis (capex ratio, buybacks, free cash flow)
+- Equity bond valuation framework
+- Summary scorecard and red flags checklist
+
+**Use for:** Analyzing company financials, evaluating investment opportunities, assessing durable competitive advantages and moats
 
 ### [housing-planning-uk/](./housing-planning-uk/)
 Expert knowledge of UK Housing and Planning law, specifically the Housing and Planning Act 2016.
@@ -43,6 +59,20 @@ Expert knowledge of IG Markets Trading API for automated trading and financial a
 - Python and JavaScript code examples
 
 **Use for:** Automated trading systems, trading bots, market data analysis, portfolio management applications, financial integrations
+
+### [suno-api/](./suno-api/)
+Expert knowledge of the Suno AI API for music generation, lyrics creation, audio processing, and video production.
+
+**Covers:**
+- Music generation (custom lyrics, description mode, instrumental)
+- Audio manipulation (extend, cover, mashup, replace section, add vocals/instrumental)
+- Lyrics generation and timestamped lyrics
+- Audio processing (vocal separation, stem splitting, WAV conversion, MIDI export)
+- Media creation (music videos, cover art)
+- Personas, style boost, sound effects, file upload API
+- Async callback patterns and polling
+
+**Use for:** AI music generation, song creation, audio remixing, vocal separation, sound effects, music production integrations
 
 ### [threejs/](./threejs/)
 Expert knowledge of Three.js, the JavaScript 3D graphics library for WebGL.
