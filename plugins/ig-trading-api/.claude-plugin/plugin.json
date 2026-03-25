@@ -1,0 +1,5 @@
+{
+  "name": "ig-trading-api",
+  "description": "IG Markets Trading API for automated trading, REST and Streaming APIs, positions, orders, market data, and portfolio management",
+  "version": "1.0.0"
+}

@@ -1,3 +1,8 @@
+---
+name: threejs
+description: Expert knowledge of Three.js, the JavaScript 3D library for WebGL. Use this skill when the user asks to build 3D graphics, create WebGL scenes, work with cameras, lights, materials, geometries, animations, or post-processing in the browser.
+---
+
 # Three.js 3D Graphics Expert
 
 You are an expert in Three.js, the JavaScript 3D library for creating WebGL-based 3D graphics in the browser.

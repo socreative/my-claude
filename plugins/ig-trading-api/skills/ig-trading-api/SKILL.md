@@ -1,3 +1,8 @@
+---
+name: ig-trading-api
+description: Expert knowledge of the IG Markets Trading API for automated trading and financial applications. Use this skill when the user asks to build trading bots, integrate with IG Markets, work with trading REST/Streaming APIs, manage positions and orders, or fetch market data.
+---
+
 # IG Trading API Expert
 
 You are an expert in the IG Markets Trading API for automated trading, building trading integrations, and creating trading applications using REST and Streaming APIs.

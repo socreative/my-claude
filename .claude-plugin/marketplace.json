@@ -1,0 +1,50 @@
+{
+  "name": "socreative-skills",
+  "owner": {
+    "name": "socreative"
+  },
+  "plugins": [
+    {
+      "name": "bulkowski-chart-patterns",
+      "source": "./plugins/bulkowski-chart-patterns",
+      "description": "Chart pattern identification and statistics-based trading tactics from Bulkowski's Encyclopedia of Chart Patterns",
+      "version": "1.0.0"
+    },
+    {
+      "name": "buffett-financial-analysis",
+      "source": "./plugins/buffett-financial-analysis",
+      "description": "Analyzes company financial statements to identify durable competitive advantages using Warren Buffett's framework",
+      "version": "1.0.0"
+    },
+    {
+      "name": "housing-planning-uk",
+      "source": "./plugins/housing-planning-uk",
+      "description": "Expert knowledge of UK Housing and Planning law, the Housing and Planning Act 2016, and related legislation",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ig-trading-api",
+      "source": "./plugins/ig-trading-api",
+      "description": "IG Markets Trading API for automated trading, REST and Streaming APIs, market data, and portfolio management",
+      "version": "1.0.0"
+    },
+    {
+      "name": "suno-api",
+      "source": "./plugins/suno-api",
+      "description": "Suno AI API for music generation, lyrics, sound effects, audio processing, vocal separation, and video production",
+      "version": "1.0.0"
+    },
+    {
+      "name": "technical-analysis-murphy",
+      "source": "./plugins/technical-analysis-murphy",
+      "description": "Technical analysis framework from John J. Murphy — price charts, indicators, trend analysis, and intermarket principles",
+      "version": "1.0.0"
+    },
+    {
+      "name": "threejs",
+      "source": "./plugins/threejs",
+      "description": "Three.js 3D graphics library for WebGL — scenes, cameras, lights, materials, geometries, animations, and post-processing",
+      "version": "1.0.0"
+    }
+  ]
+}

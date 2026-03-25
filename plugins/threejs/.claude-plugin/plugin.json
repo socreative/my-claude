@@ -1,0 +1,5 @@
+{
+  "name": "threejs",
+  "description": "Three.js 3D graphics library for WebGL — scenes, cameras, lights, materials, geometries, animations, and post-processing",
+  "version": "1.0.0"
+}
