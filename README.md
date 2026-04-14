@@ -25,6 +25,7 @@ Then install individual plugins:
 | [suno-api](plugins/suno-api/) | Suno AI API for music generation, lyrics, audio processing, and video production |
 | [technical-analysis-murphy](plugins/technical-analysis-murphy/) | Technical analysis framework from John J. Murphy — price charts, indicators, trend analysis |
 | [threejs](plugins/threejs/) | Three.js 3D graphics library for WebGL development |
+| [uk-corporation-tax](plugins/uk-corporation-tax/) | UK Corporation Tax Act 2010 — rates, reliefs, group relief, loss rules, banking surcharge, oil ring fence |
 
 ## Plugin Structure
 

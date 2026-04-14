@@ -45,6 +45,12 @@
       "source": "./plugins/threejs",
       "description": "Three.js 3D graphics library for WebGL — scenes, cameras, lights, materials, geometries, animations, and post-processing",
       "version": "1.0.0"
+    },
+    {
+      "name": "uk-corporation-tax",
+      "source": "./plugins/uk-corporation-tax",
+      "description": "Comprehensive guide to UK Corporation Tax law based on the Corporation Tax Act 2010 — rates, reliefs, group relief, loss rules, banking surcharge, oil ring fence taxation",
+      "version": "1.0.0"
     }
   ]
 }
