@@ -51,6 +51,12 @@
       "source": "./plugins/uk-corporation-tax",
       "description": "Comprehensive guide to UK Corporation Tax law based on the Corporation Tax Act 2010 — rates, reliefs, group relief, loss rules, banking surcharge, oil ring fence taxation",
       "version": "1.0.0"
+    },
+    {
+      "name": "uk-ct600-filing",
+      "source": "./plugins/uk-ct600-filing",
+      "description": "Practical CT600 filing guide for small and micro companies using Alphatax Cloud — expense categorisation, tax computation, capital allowances, directors' remuneration, box-by-box CT600 guidance",
+      "version": "1.0.0"
     }
   ]
 }
