@@ -57,6 +57,12 @@
       "source": "./plugins/uk-ct600-filing",
       "description": "Practical CT600 filing guide for small and micro companies using Alphatax Cloud — expense categorisation, tax computation, capital allowances, directors' remuneration, box-by-box CT600 guidance",
       "version": "1.0.0"
+    },
+    {
+      "name": "muller-brockmann-grid-systems",
+      "source": "./plugins/muller-brockmann-grid-systems",
+      "description": "Build editorial/magazine/report webpages on a genuine Müller-Brockmann modular grid (International Typographic Style) — CSS-variable scaffold, interactive grid-toggle overlay, subgrid bands, 8px baseline lock, optical ink alignment, and Puppeteer verification harness",
+      "version": "1.0.0"
     }
   ]
 }

@@ -27,6 +27,7 @@ Then install individual plugins:
 | [threejs](plugins/threejs/) | Three.js 3D graphics library for WebGL development |
 | [uk-corporation-tax](plugins/uk-corporation-tax/) | UK Corporation Tax Act 2010 — rates, reliefs, group relief, loss rules, banking surcharge, oil ring fence |
 | [uk-ct600-filing](plugins/uk-ct600-filing/) | Practical CT600 filing guide for small/micro companies — Alphatax Cloud, expense categorisation, tax computation, capital allowances |
+| [muller-brockmann-grid-systems](plugins/muller-brockmann-grid-systems/) | Build editorial/magazine/report webpages on a genuine Müller-Brockmann modular grid — CSS-variable scaffold, grid-toggle overlay, subgrid bands, 8px baseline lock, optical ink alignment, Puppeteer verification |
 
 ## Plugin Structure
 
